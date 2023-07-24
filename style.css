@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7em;
+  letter-spacing: 9px;
+  color: #39b0ef;
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 720px) {
+  .clock {
+    font-size: 4em;
+  }
+}
