@@ -4,7 +4,7 @@ function getTime() {
   let minute = date.getMinutes();
   let seconds = date.getSeconds();
 
-  let session = "PM";
+  let session = "AM";
 
   if (hour == 0) {
     hour = 12;
