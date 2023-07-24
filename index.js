@@ -10,7 +10,7 @@ function getTime() {
     hour = 12;
     session = "AM";
   }
-  if (hour <= 12) {
+  if (hour >= 12) {
     session = "PM";
     if (hour > 12) hour = hour - 12;
   }
